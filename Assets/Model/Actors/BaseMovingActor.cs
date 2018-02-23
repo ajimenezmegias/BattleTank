@@ -14,4 +14,16 @@ public abstract class BaseMovingActor : BaseActor
 	{
 		Speed = _speed;
 	}
+
+	public sealed override void Update(float _timeSinceLastUpdate)
+	{
+		throw new NotImplementedException();
+	}
+
+	public void UpdateImpl()
+	{
+
+	}
+
+	public
 }
